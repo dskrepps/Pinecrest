@@ -1,0 +1,19 @@
+{
+  "headerNavigation": [
+    {
+      "name": "Latest",
+      "link": "/",
+      "external": false
+    },
+    {
+      "name": "Tags",
+      "link": "/tags",
+      "external": false
+    },
+    {
+      "name": "About",
+      "link": "/about",
+      "external": false
+    }
+  ]
+}

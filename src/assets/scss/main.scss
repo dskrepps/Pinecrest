@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Global styles and some shortcuts
+ */
+
+a:link, a:visited {
+  @apply text-indigo-700;
+}
+
+
+.light-links a:link,
+.light-links a:visited {
+  @apply text-indigo-400;
+}
+
+.white-links a:link,
+.white-links a:visited {
+  @apply text-white;
+}
+
+
+// Gradient, grid, compass
+// Compass source (public domain): https://www.publicdomainpictures.net/en/view-image.php?image=234437&picture=compass-rose
+.header-bg {
+  background-image:
+    linear-gradient(to top, black, transparent),
+    url('~@/assets/img/header-bg.png'),
+    url('~@/assets/img/compass-rose.png');
+  background-repeat: no-repeat, repeat;
+  background-position: 60% -10%, 0 0;
+  background-size: auto, auto, 13rem;
+}
+
+
+
+.reddit-embed-body p {
+  @apply mb-2 font-copy;
+}
+
+
+// Social media link icons
+@mixin social($name, $domain) {
+  a[href^='https://#{$domain}/'] {
+    @apply whitespace-no-wrap;
+    &::before {
+      @apply inline-block mx-1;
+      content: '';
+      height: 1em;
+      width: 1em;
+      margin-bottom: -.1em;
+      background-image: url(~@/assets/img/social-icons/#{$name}.svg);
+    }
+  }
+}
+
+.give-social-links-icons {
+  @include social('patreon', 'www.patreon.com');
+  @include social('twitter', 'twitter.com');
+  @include social('instagram', 'www.instagram.com');
+  @include social('facebook', 'www.facebook.com');
+  @include social('artstation', 'www.artstation.com');
+  @include social('youtube', 'www.youtube.com');
+}

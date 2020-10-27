@@ -1,0 +1,15 @@
+/* TEAM */
+  Title: dskrepps
+  Site: webdevio.us
+  Twitter: @dskrepps
+  Location: United States
+
+/* SITE */
+  Components: Vue.js, Gridsome, TailwindCSS
+  Software: code-server
+
+/* THANKS */
+  Tag icons: game-icons.net
+  Social icons: simpleicons.org
+  Compass rose: https://www.publicdomainpictures.net/en/view-image.php?image=234437&picture=compass-rose
+  

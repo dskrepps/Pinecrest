@@ -1,0 +1,20 @@
+{
+  "aboutSections": [
+    {
+      "heading": "What is this place?",
+      "body": "<b>Pinecrest</b> is what I've named the collection of links to tabletop RPG encounter maps (or battle maps) of a similar hand-drawn style I have been gathering for personal use. I wanted an interface to search them and show others while at the same time I needed to learn new web technologies, thus this web app was born."
+    },
+    {
+      "heading": "Where are the maps from?",
+      "body": "Artists having been sharing their battle maps in Reddit communities such as <a href=\"https://reddit.com/r/battlemaps\">/r/battlemaps</a>, <a href=\"https://reddit.com/r/DnD\">/r/DnD</a>, and <a href=\"https://reddit.com/r/FantasyMaps\">/r/FantasyMaps</a>. Many of these artists do so as an incentive to find more maps and other content by joining their Patreon where you can support them. Using Reddit's JSON API I am only instructing your web browser to display these posts by the original artists directly from Reddit."
+    },
+    {
+      "heading": "What if I don't want my Reddit posts displayed here?",
+      "body": "This collection was put together for my own personal use, so I'll probably just find a way to make those particular posts hidden from the public. Contact me using the link in the footer."
+    },
+    {
+      "heading": "Can you add maps I think should be here?",
+      "body": "I watch Reddit for hand-drawn maps I like that fit the particular style of the collection. Whether or not a map matching the criteria gets here depends on if I see it and if I have time to put it up."
+    }
+  ]
+}
