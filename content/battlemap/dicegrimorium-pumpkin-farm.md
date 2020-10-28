@@ -1,7 +1,7 @@
 ---
 title: Pumpkin Farm
 order: 7
-tags: variants, pumpkins, autumn, farm, field, buildings, trees, grass, day, variant:night, variant:propless, variant:alternate-colors, artist:dicegrimorium
+tags: variants, pumpkins, autumn, farm, fields, buildings, trees, grass, day, variant:night, variant:propless, variant:alternate-colors, artist:dicegrimorium
 postUrl: https://www.reddit.com/r/battlemaps/comments/jf87dn/pumpkin_farm_battle_map_23x30/
 descUrl: https://www.reddit.com/r/battlemaps/comments/jf87dn/pumpkin_farm_battle_map_23x30/g9iq30y/
 credit: >

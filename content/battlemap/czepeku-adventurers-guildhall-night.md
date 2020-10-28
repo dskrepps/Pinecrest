@@ -1,7 +1,7 @@
 ---
 title: Night at the Guildhall
 order: 4
-tags: variants, torchlight, large-building, living-quarters, dining-hall, stables, fortifications, training-area, stone-walls, courtyard, worship, buildings, night, artist:czepeku, variant-of:czepeku-adventurers-guildhall
+tags: variants, torchlight, large-building, living-quarters, dining-hall, stables, fortifications, training-area, stone-walls, courtyard, map-room, study, worship, buildings, night, artist:czepeku, variant-of:czepeku-adventurers-guildhall
 postUrl: https://www.reddit.com/r/battlemaps/comments/fud8by/night_at_the_guildhall_33x24/
 descUrl: https://www.reddit.com/r/battlemaps/comments/fud8by/night_at_the_guildhall_33x24/fmc1r75/
 credit: >
