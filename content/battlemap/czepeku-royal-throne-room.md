@@ -1,7 +1,7 @@
 ---
 title: Royal Throne Room
 order: 19
-tags: variants, opulent, throne-room, throne, day, variant:sinister, variant:ruins, variant:frozen, variant:vortex, variant:blood, variant:glow, variant:night, artist:czepeku, variant-of:czepeku-royal-throne-room
+tags: variants, opulent, throne-room, throne, day, variant:sinister, variant:ruins, variant:wintery, variant:vortex, variant:blood, variant:glow, variant:night, artist:czepeku, variant-of:czepeku-royal-throne-room
 postUrl: https://www.reddit.com/r/battlemaps/comments/eam3sa/royal_throne_room_17x48/
 descUrl: https://www.reddit.com/r/battlemaps/comments/eam3sa/royal_throne_room_17x48/fatyrnx/
 credit: >

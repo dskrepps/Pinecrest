@@ -1,7 +1,7 @@
 ---
 title: Sailing Ship
 order: 21
-tags: variants, ships, ocean, multi-level, day, variant:frozen, variant:haunted, variant:propless, variant:night, artist:spellarena
+tags: variants, ships, ocean, multi-level, day, variant:wintery, variant:haunted, variant:propless, variant:night, artist:spellarena
 postUrl: https://www.reddit.com/r/battlemaps/comments/jfb7ms/sailing_ship_38x25battlemapoc/
 descUrl: https://www.reddit.com/r/battlemaps/comments/jfb7ms/sailing_ship_38x25battlemapoc/g9j55gz/
 credit: >

@@ -1,7 +1,7 @@
 ---
 title: Hilltop Monastery
 order: 15
-tags: variants, fields, courtyard, study, altar, worship, bell-tower, multi-level, above-ground, living-quarters, buildings, grass, day, variant:caves, variant:basement, variant:below-ground, variant:water, variant:infested, variant:magic-circles, variant:blood, variant:rain, variant:sunset, variant:snow, variant:night, artist:czepeku
+tags: variants, fields, courtyard, study, altar, worship, bell-tower, multi-level, above-ground, living-quarters, buildings, grass, day, variant:caves, variant:basement, variant:below-ground, variant:water, variant:infested, variant:magic-circles, variant:blood, variant:rain, variant:sunset, variant:wintery, variant:night, artist:czepeku
 postUrl: https://www.reddit.com/r/battlemaps/comments/jfg6aj/hilltop_monastery_46x61/
 descUrl: https://www.reddit.com/r/battlemaps/comments/jfg6aj/hilltop_monastery_46x61/g9jz7rj/
 credit: >
