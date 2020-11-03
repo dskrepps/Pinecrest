@@ -2,7 +2,34 @@
 title: Port Pirate Tavern Pt. 2
 artist: czepeku
 order: 9
-tags: variants, tavern, multi-level, pirate, nest, cliffs, docks, shore, ocean, dirt-path, buildings, large-building, above-ground, day, variant:below-ground, variant:multi-level, variant:night, variant:basement, variant:sewer, variant:blood, variant:glow, variant:haunted, variant:sunset, variant:giant-creature, variant:rain, artist:czepeku, variant-of:czepeku-port-pirate-tavern
+tags:
+  - variants
+  - tavern
+  - multi-level
+  - pirate
+  - nest
+  - cliffs
+  - docks
+  - shore
+  - ocean
+  - dirt-path
+  - buildings
+  - large-building
+  - above-ground
+  - day
+  - variant:below-ground
+  - variant:multi-level
+  - variant:night
+  - variant:basement
+  - variant:sewer
+  - variant:blood
+  - variant:glow
+  - variant:haunted
+  - variant:sunset
+  - variant:giant-creature
+  - variant:rain
+  - artist:czepeku
+  - variant-of:czepeku-port-pirate-tavern
 postUrl: https://www.reddit.com/r/battlemaps/comments/bemgsd/port_pirate_tavern_pt_2_free_battlemap_36x27/
 descUrl: https://www.reddit.com/r/battlemaps/comments/bemgsd/port_pirate_tavern_pt_2_free_battlemap_36x27/el6uo65/
 credit: >

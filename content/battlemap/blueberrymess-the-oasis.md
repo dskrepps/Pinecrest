@@ -2,7 +2,18 @@
 title: The Oasis
 artist: blueberrymess
 order: 16
-tags: variants, oasis, desert, sand, water, day, variant:camp, variant:ruins, variant:magic-circles, variant:night, artist:blueberrymess
+tags:
+  - variants
+  - oasis
+  - desert
+  - sand
+  - water
+  - day
+  - variant:camp
+  - variant:ruins
+  - variant:magic-circles
+  - variant:night
+  - artist:blueberrymess
 postUrl: https://www.reddit.com/r/battlemaps/comments/jemzpg/the_oasis_65x45/
 descUrl: https://www.reddit.com/r/battlemaps/comments/jemzpg/the_oasis_65x45/g9f5r7s/
 credit: >

@@ -2,7 +2,27 @@
 title: Blue Dragon Lair
 artist: czepeku
 order: 27
-tags: variants, desert, sand, cliffs, dungeon-entrance, ruins, variant:fiery, variant:waterfalls, variant:cave-entrance, variant:blood, variant:fog, variant:glow, variant:wintery, variant:magic-circles, variant:rain, variant:antlion, variant:water, variant:night, day, artist:czepeku
+tags:
+  - variants
+  - desert
+  - sand
+  - cliffs
+  - dungeon-entrance
+  - ruins
+  - variant:fiery
+  - variant:waterfalls
+  - variant:cave-entrance
+  - variant:blood
+  - variant:fog
+  - variant:glow
+  - variant:wintery
+  - variant:magic-circles
+  - variant:rain
+  - variant:antlion
+  - variant:water
+  - variant:night
+  - day
+  - artist:czepeku
 postUrl: https://www.reddit.com/r/battlemaps/comments/j0a55p/blue_dragon_lair_34x62/
 descUrl: https://www.reddit.com/r/battlemaps/comments/j0a55p/blue_dragon_lair_34x62/g6pa3uf/
 credit: >

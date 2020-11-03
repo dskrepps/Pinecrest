@@ -2,7 +2,17 @@
 title: Snowy Weather Transition
 artist: dicegrimorium
 order: 17
-tags: variants, dirt-path, wintery, grass, trees, day, variant:propless, variant:alternate-colors, variant:night, artist:dicegrimorium
+tags:
+  - variants
+  - dirt-path
+  - wintery
+  - grass
+  - trees
+  - day
+  - variant:propless
+  - variant:alternate-colors
+  - variant:night
+  - artist:dicegrimorium
 postUrl: https://www.reddit.com/r/battlemaps/comments/gplufo/snowy_weather_transition_24x34/
 descUrl: https://www.reddit.com/r/battlemaps/comments/gplufo/snowy_weather_transition_24x34/frmnsf9/
 credit: >

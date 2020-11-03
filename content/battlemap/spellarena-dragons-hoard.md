@@ -2,7 +2,17 @@
 title: Dragon's Hoard
 artist: spellarena
 order: 18
-tags: variants, treasure, treasure-room, creature-skeleton, dragon, dungeon, variant:fog, variant:day, variant:alternate-colors, artist:spellarena
+tags:
+  - variants
+  - treasure
+  - treasure-room
+  - creature-skeleton
+  - dragon
+  - dungeon
+  - variant:fog
+  - variant:day
+  - variant:alternate-colors
+  - artist:spellarena
 postUrl: https://www.reddit.com/r/battlemaps/comments/fezhs2/battlemap30x303500x3500px_dragons_hoard_ocart/
 descUrl: https://www.reddit.com/r/battlemaps/comments/fezhs2/battlemap30x303500x3500px_dragons_hoard_ocart/fjteael/
 credit: >

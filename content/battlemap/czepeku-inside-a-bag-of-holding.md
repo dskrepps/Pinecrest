@@ -2,7 +2,16 @@
 title: Inside a Bag of Holding
 artist: czepeku
 order: 13
-tags: variants, giant-objects, floating, abstract, variant:blood, variant:giant-creature, variant:vortex, variant:water, artist:czepeku
+tags:
+  - variants
+  - giant-objects
+  - floating
+  - abstract
+  - variant:blood
+  - variant:giant-creature
+  - variant:vortex
+  - variant:water
+  - artist:czepeku
 postUrl: https://www.reddit.com/r/czepeku/comments/j22xfc/inside_a_bag_of_holding_55x55/
 descUrl: https://www.reddit.com/r/czepeku/comments/j22xfc/inside_a_bag_of_holding_55x55/g72tzhg/
 credit: >

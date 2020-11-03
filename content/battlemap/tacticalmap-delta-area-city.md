@@ -2,7 +2,27 @@
 title: Delta Area City
 artist: tacticalmap
 order: 11
-tags: variants, city, canals, ships, docks, secrets, water, paved-stone, living-quarters, buildings, day, variant:desert, variant:wintery, variant:blood, variant:fiery, variant:roofs, variant:poisoned, variant:fog, variant:night, artist:tacticalmap
+tags:
+  - variants
+  - city
+  - canals
+  - ships
+  - docks
+  - secrets
+  - water
+  - paved-stone
+  - living-quarters
+  - buildings
+  - day
+  - variant:desert
+  - variant:wintery
+  - variant:blood
+  - variant:fiery
+  - variant:roofs
+  - variant:poisoned
+  - variant:fog
+  - variant:night
+  - artist:tacticalmap
 postUrl: https://www.reddit.com/user/TacticalMap/comments/jbusvt/delta_area_city_40x40/
 descUrl: https://www.reddit.com/user/TacticalMap/comments/jbusvt/delta_area_city_40x40/g8xiwkq/
 credit: >

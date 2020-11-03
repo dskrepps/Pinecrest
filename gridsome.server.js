@@ -1,12 +1,13 @@
 module.exports = function (api) {
 
+// The following no longer necessary since using an array works better for Netlify CMS
 // If tags aren't an array split them by ','
-  api.onCreateNode( options => {
-    if (options.internal.typeName === 'Item') {
-      options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
-      return {...options};
-    }
-  })
+  // api.onCreateNode( options => {
+  //   if (options.internal.typeName === 'Item') {
+  //     options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
+  //     return {...options};
+  //   }
+  // })
 
 
   api.createPages( async ({graphql, createPage}) => {
