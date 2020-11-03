@@ -8,9 +8,9 @@ public_folder: "/uploads"
 collections:
   - name: "battlemaps"
     label: "Battlemaps"
-    folder: "battlemap"
+    folder: "content/battlemap"
     create: true
-    slug: "{{fields.author}}-{{fields.title}}"
+    slug: "{{fields.artist}}-{{fields.title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Artist (patreon slug preferred)", name: "artist", widget: "string"}
