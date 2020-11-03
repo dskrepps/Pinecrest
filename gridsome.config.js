@@ -49,8 +49,21 @@ module.exports = {
         lang: "en",
       },
     },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`,
+      },
+    },
   ],
-
+  
+  transformers: {
+    remark: {
+      externalLinksRel: ['noopener', 'noreferrer'],
+      anchorClassName: 'remark-link'
+    }
+  },
+  
   templates: {
     Tag: [{
       path: '/tags/:title',

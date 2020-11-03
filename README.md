@@ -1,6 +1,6 @@
 # Pinecrest
 
-An interface to view a collection of Reddit posts of tabletop RPG encounter maps, designed for personal use. I wanted a nice way to show this collection to friends and it made for nice experience working with Vue.js and Gridsome.
+An interface to view a collection of Reddit posts of tabletop RPG encounter maps, designed for personal use. I wanted a nice way to show this collection to friends and it made for nice experience working with Vue.js and Gridsome. Netlify CMS enabled.
 
 
 ## Understanding the Code
@@ -16,7 +16,6 @@ An interface to view a collection of Reddit posts of tabletop RPG encounter maps
 
 ## Improvements I might make
 
-- Implement NetlifyCMS or similar. Editing markdown files is a bit tedious.
 - Searching multiple tags at once might be implementable by parsing a large object client-side.
 - A tag search might also have a second section listing some maps which have variants containing that tag.
 - Each map's page might have another section showcasing a couple more maps by an artist.

@@ -1,5 +1,6 @@
 ---
 title: Dwarven Dungeon
+artist: sliph
 order: 23
 tags: dungeon, throne, forge, fiery, cliffs, crypt, living-quarters, below-ground, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/esdswx/dwarven_dungeon_48x48/

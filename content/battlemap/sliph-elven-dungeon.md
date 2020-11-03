@@ -1,5 +1,6 @@
 ---
 title: Elven Dungeon
+artist: sliph
 order: 26
 tags: dungeon, map-room, living-quarters, study, waterfalls, water, trees, day, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/fc3sd6/elven_dungeon_48x48/

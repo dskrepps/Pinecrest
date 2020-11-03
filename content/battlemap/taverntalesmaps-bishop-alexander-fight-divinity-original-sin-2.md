@@ -1,5 +1,6 @@
 ---
 title: Bishop Alexander Fight - Divinity Original Sin 2
+artist: taverntalesmaps
 order: 13
 tags: variants, ruins, stone-walls, cliffs, docks, shore, water, dirt-path, trees, day, variant:magic-circles, variant:sunset, variant:night, artist:taverntalesmaps
 postUrl: https://www.reddit.com/r/battlemaps/comments/g31c8r/bishop_alexander_fight_divinity_original_sin_2/

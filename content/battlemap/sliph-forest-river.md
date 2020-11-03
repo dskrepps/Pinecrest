@@ -1,5 +1,6 @@
 ---
 title: Forest River
+artist: sliph
 order: 22
 tags: running-water, autumn, bridge, trees, water, grass, day, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/jjxist/forest_river_30x35/

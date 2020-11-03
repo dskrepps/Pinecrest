@@ -1,5 +1,6 @@
 ---
 title: Waterfall Bridge
+artist: sliph
 order: 24
 tags: waterfalls, bridge, cliffs, dirt-path, running-water, water, grass, day, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/gcaor4/waterfall_bridge_19x19/

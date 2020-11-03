@@ -1,5 +1,6 @@
 ---
 title: Dungeon Ruins
+artist: sliph
 order: 25
 tags: dungeon, ruins, crypt, caves, cliffs, water, below-ground, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/iyf0qs/dungeon_ruins_61x61/

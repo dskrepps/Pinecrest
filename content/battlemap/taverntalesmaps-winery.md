@@ -1,5 +1,6 @@
 ---
 title: Winery
+artist: taverntalesmaps
 order: 12
 tags: variants, stables, courtyard, fields, farm, dirt-path, living-quarters, large-building, buildings, trees, grass, day, variant:fog, variant:basement, variant:fog, artist:taverntalesmaps
 postUrl: https://www.reddit.com/r/battlemaps/comments/j5j2kr/winery_50x46/

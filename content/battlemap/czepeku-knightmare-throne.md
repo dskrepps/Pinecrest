@@ -1,5 +1,6 @@
 ---
 title: Knightmare Throne
+artist: czepeku
 order: 20
 tags: variants, sinister, throne-room, throne, night, artist:czepeku, variant-of:czepeku-royal-throne-room
 postUrl: https://www.reddit.com/r/battlemaps/comments/feyft3/knightmare_throne_17x48/

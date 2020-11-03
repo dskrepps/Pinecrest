@@ -1,5 +1,6 @@
 ---
 title: Cliffside Portal
+artist: sliph
 order: 21
 tags: portal, cliff, grass, day, artist:sliph
 postUrl: https://www.reddit.com/r/battlemaps/comments/ilbzut/cliffside_portal_30x25/

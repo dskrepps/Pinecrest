@@ -1,5 +1,6 @@
 ---
 title: City Streets and Alleys
+artist: taverntalesmaps
 order: 14
 tags: variants, city, rooftop-movement, alleyways, market, paved-stone, roofs, buildings, day, variant:propless, variant:night, artist:taverntalesmaps
 postUrl: https://www.reddit.com/r/battlemaps/comments/jjmp7c/city_streets_and_alleys_25x45/

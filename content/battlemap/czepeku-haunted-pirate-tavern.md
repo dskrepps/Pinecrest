@@ -1,5 +1,6 @@
 ---
 title: Haunted Pirate Tavern
+artist: czepeku
 order: 9
 tags: variants, haunted, ships, tavern, pirate, glow, secret-passage, docks, cliffs, shore, ocean, paved-stone, treasure, treasure-room, map-room, trap-door, secrets, buildings, large-building, below-ground, night, artist:czepeku, variant-of:czepeku-port-pirate-tavern
 postUrl: https://www.reddit.com/r/battlemaps/comments/ilahah/haunted_pirate_tavern_36x27/

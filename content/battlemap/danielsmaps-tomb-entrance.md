@@ -1,5 +1,6 @@
 ---
 title: Ancient Tomb Entrance
+artist: danielsmaps
 order: 2
 tags: variants, ruins, dungeon-entrance, stone-walls, variant:desert, variant:rain, variant:night, variant:propless, dirt-path, trees, grass, day, artist:danielsmaps
 postUrl: https://www.reddit.com/r/battlemaps/comments/iwx0eq/ancient_tomb_entrance_18x24/

@@ -1,5 +1,6 @@
 ---
 title: Beached Kraken
+artist: czepeku
 order: 8
 tags: variants, kraken, dead-creature, giant-creature, docks, construction, shore, variant:shipwreck, variant:sharks, variant:passage-of-time, variant:inside-giant-creature, variant:blood, variant:rain, variant:propless, variant:night, ocean, day, artist:czepeku
 postUrl: https://www.reddit.com/r/FantasyMaps/comments/j68qo9/78x23_beached_kraken_battlemap/
