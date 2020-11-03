@@ -16,7 +16,6 @@ collections:
       - {label: "Artist (patreon slug preferred)", name: "artist", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Reddit Post URL", name: "postUrl", widget: "string"}
       - {label: "Reddit Comment URL (Description)", name: "descUrl", widget: "string"}
       - {label: "Credit", name: "credit", widget: "markdown"}
