@@ -4,7 +4,7 @@ artist: sliph
 order: 21
 tags:
   - portal
-  - cliff
+  - cliffs
   - grass
   - day
   - artist:sliph

@@ -13,15 +13,31 @@ export default async function fetchRedditData( item, state ) {
     
     const response = await axios.get( item.descUrl + '.json?raw_json=1' );
     
+    let postData = response.data[0].data.children[0].data;
+    let commentData = response.data[1].data.children[0].data;
+    
+    
+    let preview = postData.preview?.images[0].resolutions[5].url;
+    
+    // Data structure is different for galleries
+    // We'll just get the first image
+    if( !preview ) {
+      // The image order is in gallery_data,
+      // but the preview urls themselves are in media_metadata
+      let mediaId = postData.gallery_data.items[0].media_id;
+      preview = postData.media_metadata[mediaId].p[5].u;
+    }
+    
+    
     state.post = {
-      imgSrc: response.data[0].data.children[0].data.preview.images[0].resolutions[5].url,
-      url: response.data[0].data.children[0].data.permalink,
-      // postUser: response.data[0].data.children[0].data.author,
-      // date: response.data[0].data.children[0].data.created,
+      imgSrc: preview,
+      url: postData.permalink,
+      // postUser: postData.author,
+      // date: postData.created,
     };
     
     state.desc = {
-      body: response.data[1].data.children[0].data.body_html,
+      body: commentData.body_html,
     };
     
     state.loading = false;
