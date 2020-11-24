@@ -116,11 +116,15 @@
       
       <!-- Variants have their own section below -->
       <RelatedItems
-        heading="Variants"
         :items="variants"
-        :footer="$page.item.content"
+        asideClassNames="max-w-480"
         class="bg-gray-800"
-      />
+      >
+        <template v-slot:heading>
+          Variants
+        </template>
+        <span v-html="$page.item.content"></span>
+      </RelatedItems>
       
       
     </main> <!-- /.item-page -->

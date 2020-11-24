@@ -5,12 +5,15 @@
 */
 
 <template>
-  <div class="related-items flex-grow pt-8 pb-16">
-    <aside class="max-w-480 mx-auto px-6">
+  <div v-if="items.length || $slots.length"
+    class="related-items flex-grow py-16"
+  >
+    <aside :class="`container mx-auto px-6 ${asideClassNames || ''}`">
       <h2 v-if="items.length"
-        v-html="heading"
-        class="mt-0 text-white"
-      ></h2>
+        class="mt-0 mb-8 text-white text-3xl"
+      >
+        <slot name="heading"></slot>
+      </h2>
       
       <div v-if="items.length"
         class="related-items__items md:grid"
@@ -21,12 +24,12 @@
         />
       </div>
       
-      <div v-html="footer"
-        class="related-items__footer pt-8 text-white text-xl text-center light-links"
-      ></div>
+      <div class="related-items__footer pt-8 text-white text-xl text-center light-links">
+        <slot></slot>
+      </div>
       
     </aside>
-  </div> <!-- /.related-items__wrapper -->
+  </div> <!-- /.related-items -->
 </template>
 
 
@@ -40,7 +43,7 @@ export default {
   props: {
     'heading': String,
     'items': Array,
-    'footer': String,
+    'asideClassNames': String,
   },
   
   components: {
@@ -67,11 +70,11 @@ export default {
   .item-card__image-link[class] { height: 20rem; @apply rounded-t-lg; }
   .item-card__image[class]      { @apply rounded-t-lg; }
   .item-card__content[class]    { @apply rounded-none; }
-  .item-card__footer            { @apply mt-auto; }
+  .item-card__footer            { @apply flex-grow flex flex-col; }
   
   // Limit tags to display only two rows
   .item-tags {
-    @apply overflow-hidden;
+    @apply overflow-hidden mt-auto;
     height: 5em;
   }
   

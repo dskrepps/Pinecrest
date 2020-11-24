@@ -8,6 +8,9 @@ module.exports = {
       'xl' : 1024,
     },
     extend: {
+      backgroundColor: {
+        'dark-purple': '#272039',
+      },
       screens: {
         // Adding one pixel so this only applies to *extra* wide monitors like my ultrawide
         'xl': '1281px',

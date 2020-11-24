@@ -38,40 +38,79 @@
         />
       </div>
     </div>
+    
+    <!-- {{JSON.stringify($page.tag.variantTag)}} -->
+    <RelatedItems
+      :items="variants"
+      class="bg-dark-purple"
+    >
+      <template v-slot:heading>
+        Maps With Matching Variants
+      </template>
+      See all maps with matching variants: <ItemTags
+        :tags="[$page.variantTag]"
+        class="mt-2 text-lg"
+      />
+    </RelatedItems>
       
   </Layout>
 </template>
 
 <page-query>
-  query($id: ID!, $page:Int) {
-    tag(id: $id) {
-      title
-      path
-      belongsTo(perPage: 6, page: $page, sortBy: "order") @paginate {
-        totalCount
-        pageInfo {
-          totalPages
-          currentPage
-        }
-        edges {
-          node {
-            ... on Item {
+query($id: ID!, $page:Int, $variantTag: ID) {
+  tag(id: $id) {
+    title
+    path
+    variantTag
+    belongsTo(perPage: 6, page: $page, sortBy: "order") @paginate {
+      totalCount
+      pageInfo {
+        totalPages
+        currentPage
+      }
+      edges {
+        node {
+          ... on Item {
+            title
+            path
+            tags {
+              id
               title
               path
-              tags {
-                id
-                title
-                path
-              }
-              postUrl
-              descUrl
-              credit
             }
+            postUrl
+            descUrl
+            credit
           }
         }
       }
-    }  
+    }
   }
+  variants: allItem (
+    filter: { tags: { contains: [$variantTag] } }
+    limit: 20,
+  ) {
+    edges {
+      node {
+        id
+        title
+        path
+        postUrl
+        descUrl
+        credit
+        tags {
+          id
+          title
+          path
+        }
+      }
+    }
+  }
+  variantTag: tag(id: $variantTag) {
+    title
+    path
+  }
+}
 </page-query>
 
 <script>
@@ -79,6 +118,7 @@ import HeaderPartial from '~/layouts/partials/Header.vue'
 import ListItem from "~/components/ListItem.vue";
 import ItemTags from "~/components/ItemTags.vue";
 import Pagination from "~/components/Pagination.vue";
+import RelatedItems from "~/components/RelatedItems.vue";
 
 export default {
   metaInfo() {
@@ -91,12 +131,18 @@ export default {
     ItemTags,
     Pagination,
     HeaderPartial,
+    RelatedItems,
   },
   computed : {
     postLabel : function() {
       var pluralize = require('pluralize');
       return pluralize( 'battlemap', this.$page.tag.belongsTo.totalCount );
-    }
+    },
+    variants: function() {
+      const shuffled = this.$page.variants.edges.sort(() => 0.5 - Math.random());
+      
+      return shuffled.slice(0, 2).map( edge=>edge.node );
+    },
   },
 };
 </script>

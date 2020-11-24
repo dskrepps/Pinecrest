@@ -61,7 +61,7 @@ export default {
 
 
 <style lang="scss">
-  .item-tags__tag[class] {
+  .item-tags__tag[class][class] {
     @apply text-white;
     img { filter: invert(1); } // Color the tag's icon (from black)
   }
