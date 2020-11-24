@@ -16,7 +16,9 @@
         <h1 class="m-0 mb-3 p-0 text-4xl text-white leading-none"
           style="font-family: 'Dancing Script', cursive;"
         >
-          {{ $static.metadata.siteName }}
+          <a href="/">
+            {{ $static.metadata.siteName }}
+          </a>
         </h1>
         
       </div>
