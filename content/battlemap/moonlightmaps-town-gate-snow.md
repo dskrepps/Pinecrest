@@ -14,7 +14,7 @@ tags:
   - cliffs
   - trees
   - night
-  - variant:grassy
+  - variant:grass
   - variant:ransacked
   - variant:propless
   - variant:fog

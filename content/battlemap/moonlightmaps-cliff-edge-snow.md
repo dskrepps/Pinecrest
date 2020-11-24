@@ -11,7 +11,8 @@ tags:
   - variant:desert
   - variant:fiery
   - variant:fog
-  - variant:grassy variant:night
+  - variant:grassy
+  - variant:night
   - artist:moonlightmaps
   - variant-of:moonlightmaps-cliff-edge
 postUrl: https://www.reddit.com/r/battlemaps/comments/jsspyu/oc_yeti_frost_giant_ice_golem_what_will_your/

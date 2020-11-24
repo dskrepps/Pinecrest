@@ -10,7 +10,9 @@ tags:
   - variant:floating
   - variant:desert
   - variant:fiery
-  - variant:fogvariant:wintery variant:night
+  - variant:fog
+  - variant:wintery
+  - variant:night
   - artist:moonlightmaps
   - variant-of:moonlightmaps-cliff-edge
 postUrl: https://www.reddit.com/r/battlemaps/comments/jqug5w/oc_dont_look_down_cliff_edge_20x32/
