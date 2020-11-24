@@ -114,16 +114,33 @@
         
       </div> <!-- /.item-page__wrapper -->
       
-      <!-- Variants have their own section below -->
+      <!-- Variants section -->
       <RelatedItems
         :items="variants"
         asideClassNames="max-w-480"
-        class="bg-gray-800"
+        class="bg-gray-700"
       >
         <template v-slot:heading>
           Variants
         </template>
         <span v-html="$page.item.content"></span>
+      </RelatedItems>
+      
+      <!-- More by artists section -->
+      <RelatedItems
+        :items="moreByArtists"
+        asideClassNames="max-w-480"
+        class="bg-gray-800"
+      >
+        <template v-slot:heading>
+          More by this Artist
+        </template>
+        See all maps tagged with this artist:
+        <ItemTags v-for="tag in artistTags"
+          :tags="[tag]"
+          :key="tag.id"
+          class="mt-2 text-lg"
+        />
       </RelatedItems>
       
       
@@ -135,7 +152,7 @@
 
 
 <page-query>
-query($id: ID!, $variantTags: [ID]) {
+query($id: ID!, $variantTags: [ID], $artistTags: [ID]) {
   item(id: $id) {
     title
     path
@@ -151,6 +168,28 @@ query($id: ID!, $variantTags: [ID]) {
   }
   variants: allItem (
     filter: { tags: { containsAny: $variantTags }, id: { ne: $id } }
+  ) {
+    edges {
+      node {
+        id
+        title
+        path
+        postUrl
+        descUrl
+        credit
+        tags {
+          id
+          title
+          path
+        }
+      }
+    }
+  }
+  moreByArtists: allItem (
+    filter: {
+      tags: { containsAny: $artistTags }
+      id: { ne: $id } }
+    limit: 20
   ) {
     edges {
       node {
@@ -201,6 +240,34 @@ export default {
     // Simplify the variants array
     variants: function(){
       return this.$page.variants.edges.map( edge=>edge.node );
+    },
+    
+    artistTags: function(){
+      return this.$page.item.tags
+        .filter( tag=>tag.title.startsWith('artist:') );
+    },
+    
+    // Shuffle and limit the moreByArtists array
+    moreByArtists: function(){
+      
+      // Can't filter variants of this item in the query for some reason
+      const variantTags = this.$page.item.tags
+        .filter( tag=>tag.title.startsWith('variant-of:') )
+        .map( tag=>tag.title );
+      
+      let moreByArtists = this.$page.moreByArtists.edges
+        .map( edge=>edge.node )
+        // Filter out item if it has any tags in variantTags
+        .filter(item=>
+          !item.tags.some(({title})=>
+            variantTags.includes(title)
+          )
+        )
+        // Random sort
+        .sort(() => 0.5 - Math.random());
+        
+        // Limit 2
+      return moreByArtists.slice(0, 2);
     },
   },
   

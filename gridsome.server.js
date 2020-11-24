@@ -2,9 +2,8 @@ module.exports = function (api) {
 
   api.onCreateNode( options => {
     
-    
-    // If tags aren't an array split them by ','
     if (options.internal.typeName === 'Item') {
+      // If tags aren't an array split them by ', '
       options.tags = (typeof options.tags === 'string') ? options.tags.split(',').map(string => string.trim()) : options.tags;
     }
     
@@ -38,27 +37,14 @@ module.exports = function (api) {
     // For every item
     data.allItem.edges.forEach(function(element) {
       
-      // Allow querying posts by their name appearing in tags after 'variant-of:'
+      // Allow querying post's variants
       let variantTags = element.node.tags
         .filter( tag=>tag.title.startsWith('variant-of:') )
         .map( tag=>tag.title );
-        
-      createPage({
-        path: element.node.path,
-        component: './src/templates/SingleItem.vue',
-        context: {
-          variantTags,
-          id: element.node.id,
-        }
-      });
-
-    });
-    
-    data.allItem.edges.forEach(function(element) {
       
-      // Allow querying posts by their name appearing in tags after 'variant-of:'
-      let variantTags = element.node.tags
-        .filter( tag=>tag.title.startsWith('variant-of:') )
+      // Allow querying post's artists
+      let artistTags = element.node.tags
+        .filter( tag=>tag.title.startsWith('artist:') )
         .map( tag=>tag.title );
         
       createPage({
@@ -66,6 +52,7 @@ module.exports = function (api) {
         component: './src/templates/SingleItem.vue',
         context: {
           variantTags,
+          artistTags,
           id: element.node.id,
         }
       });

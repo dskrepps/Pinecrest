@@ -39,7 +39,6 @@
       </div>
     </div>
     
-    <!-- {{JSON.stringify($page.tag.variantTag)}} -->
     <RelatedItems
       :items="variants"
       class="bg-dark-purple"
@@ -140,7 +139,6 @@ export default {
     },
     variants: function() {
       const shuffled = this.$page.variants.edges.sort(() => 0.5 - Math.random());
-      
       return shuffled.slice(0, 2).map( edge=>edge.node );
     },
   },
