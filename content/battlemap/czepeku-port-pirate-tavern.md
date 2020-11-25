@@ -33,6 +33,7 @@ tags:
   - variant:haunted
   - variant:sunset
   - variant:giant-creature
+  - variant:secrets
   - variant:rain
   - artist:czepeku
   - variant-of:czepeku-port-pirate-tavern

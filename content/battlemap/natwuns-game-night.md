@@ -12,6 +12,7 @@ tags:
   - variant:infested
   - variant:alternate-colors
   - variant:outdoors
+  - variant:propless
   - artist:natwuns
 postUrl: https://www.reddit.com/r/battlemaps/comments/jubjbr/game_night_39x30/
 descUrl: https://www.reddit.com/r/battlemaps/comments/jubjbr/game_night_39x30/gcawawf/
