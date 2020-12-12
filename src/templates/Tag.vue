@@ -40,6 +40,7 @@
     </div>
     
     <RelatedItems
+      v-if="$page.variantTag"
       :items="variants"
       class="bg-dark-purple"
     >
