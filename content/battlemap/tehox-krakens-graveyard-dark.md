@@ -7,6 +7,7 @@ tags:
   - dead-creature
   - glow
   - dead-trees
+  - swamp
   - water
   - grass
   - night

@@ -11,7 +11,7 @@ tags:
   - variant:desert
   - variant:fiery
   - variant:fog
-  - variant:grassy
+  - variant:grass
   - variant:night
   - artist:moonlightmaps
   - variant-of:moonlightmaps-cliff-edge

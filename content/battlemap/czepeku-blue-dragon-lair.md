@@ -18,7 +18,7 @@ tags:
   - variant:wintery
   - variant:magic-circles
   - variant:rain
-  - variant:antlion
+  - variant:antlions
   - variant:water
   - variant:night
   - day

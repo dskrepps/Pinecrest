@@ -6,6 +6,7 @@ tags:
   - kraken
   - dead-creature
   - dead-trees
+  - swamp
   - water
   - grass
   - day
