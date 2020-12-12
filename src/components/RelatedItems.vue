@@ -5,7 +5,7 @@
 */
 
 <template>
-  <div v-if="items.length || $slots.length"
+  <div v-if="items.length || $slots.default"
     class="related-items flex-grow py-16"
   >
     <aside :class="`container mx-auto px-6 ${asideClassNames || ''}`">
@@ -16,7 +16,7 @@
       </h2>
       
       <div v-if="items.length"
-        class="related-items__items md:grid"
+        class="related-items__items md:grid mb-8"
       >
         <ListItem v-for="item in items"
           :key="item.id"
@@ -24,7 +24,7 @@
         />
       </div>
       
-      <div class="related-items__footer pt-8 text-white text-xl text-center light-links">
+      <div class="related-items__footer text-white text-xl text-center light-links">
         <slot></slot>
       </div>
       
