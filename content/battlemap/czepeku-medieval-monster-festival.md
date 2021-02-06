@@ -1,21 +1,7 @@
 ---
 title: Medieval Monster Festival
 order: 45
-tags:
-  - variants
-  - festive
-  - food
-  - bonfire
-  - market
-  - cauldrons
-  - giant-creature
-  - sinister
-  - running-water
-  - water
-  - trees
-  - grass
-  - day
-  - artist:czepeku
+tags: variants, festive, food, bonfire, market, cauldrons, giant-creature, sinister, running-water, water, trees, grass, day, variant:rain, variant:night, artist:czepeku, variant-of:czepeku-medieval-monster-festival
 postUrl: https://www.reddit.com/r/czepeku/comments/jetld6/medieval_monster_festival_26x42/
 descUrl: https://www.reddit.com/r/czepeku/comments/jetld6/medieval_monster_festival_26x42/g9g768t/
 credit: >

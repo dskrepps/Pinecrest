@@ -43,7 +43,7 @@ a:link, a:visited {
 
 // Social media link icons
 @mixin social($name, $domain) {
-  a[href^='https://#{$domain}/'] {
+  a[href*='#{$domain}/'] {
     @apply whitespace-no-wrap;
     &::before {
       @apply inline-block mx-1;
@@ -57,10 +57,11 @@ a:link, a:visited {
 }
 
 .give-social-links-icons {
-  @include social('patreon', 'www.patreon.com');
+  @include social('patreon', 'patreon.com');
   @include social('twitter', 'twitter.com');
-  @include social('instagram', 'www.instagram.com');
-  @include social('facebook', 'www.facebook.com');
-  @include social('artstation', 'www.artstation.com');
-  @include social('youtube', 'www.youtube.com');
+  @include social('instagram', 'instagram.com');
+  @include social('facebook', 'facebook.com');
+  @include social('artstation', 'artstation.com');
+  @include social('youtube', 'youtube.com');
+  @include social('tumblr', 'tumblr.com');
 }
