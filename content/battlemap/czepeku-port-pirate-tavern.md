@@ -11,7 +11,6 @@ tags:
   - docks
   - cliffs
   - shore
-  - ocean
   - paved-stone
   - infested
   - treasure

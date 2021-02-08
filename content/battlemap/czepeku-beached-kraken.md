@@ -10,6 +10,8 @@ tags:
   - docks
   - construction
   - shore
+  - water
+  - day
   - variant:shipwreck
   - variant:sharks
   - variant:passage-of-time
@@ -18,8 +20,6 @@ tags:
   - variant:rain
   - variant:propless
   - variant:night
-  - ocean
-  - day
   - artist:czepeku
 postUrl: https://www.reddit.com/r/FantasyMaps/comments/j68qo9/78x23_beached_kraken_battlemap/
 descUrl: https://www.reddit.com/r/FantasyMaps/comments/j68qo9/78x23_beached_kraken_battlemap/g7wswg3/

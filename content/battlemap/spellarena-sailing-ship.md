@@ -5,7 +5,8 @@ order: 21
 tags:
   - variants
   - ships
-  - ocean
+  - at-sea
+  - water
   - multi-level
   - day
   - variant:wintery

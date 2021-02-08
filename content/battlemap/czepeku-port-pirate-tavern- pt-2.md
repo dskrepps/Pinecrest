@@ -12,7 +12,6 @@ tags:
   - well
   - docks
   - shore
-  - ocean
   - dirt-path
   - buildings
   - large-building
